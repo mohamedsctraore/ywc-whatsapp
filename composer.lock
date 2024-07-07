@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80e9d6b598bf17706dcfc15b6416253b",
+    "content-hash": "ca4dc0eb452959f5ae7577bec634933b",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -8220,52 +8220,6 @@
             "time": "2020-07-09T08:09:16+00:00"
         },
         {
-            "name": "heroku/heroku-buildpack-php",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "4e741c66f102543e82e3b0d6b62cd6009718f78f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/4e741c66f102543e82e3b0d6b62cd6009718f78f",
-                "reference": "4e741c66f102543e82e3b0d6b62cd6009718f78f",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "bin": [
-                "bin/heroku-php-apache2",
-                "bin/heroku-php-nginx"
-            ],
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Zuelke",
-                    "email": "dz@heroku.com"
-                }
-            ],
-            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
-            "homepage": "https://github.com/heroku/heroku-buildpack-php",
-            "keywords": [
-                "apache",
-                "apache2",
-                "foreman",
-                "heroku",
-                "nginx",
-                "php"
-            ],
-            "support": {
-                "issues": "https://github.com/heroku/heroku-buildpack-php/issues",
-                "source": "https://github.com/heroku/heroku-buildpack-php/tree/main"
-            },
-            "time": "2024-07-05T13:08:56+00:00"
-        },
-        {
             "name": "laravel/breeze",
             "version": "v1.29.1",
             "source": {
@@ -10522,8 +10476,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "unn/gettext-blade": 20,
-        "heroku/heroku-buildpack-php": 20
+        "unn/gettext-blade": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
